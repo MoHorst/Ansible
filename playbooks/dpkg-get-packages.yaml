@@ -8,4 +8,4 @@
 
     - name: Print packages
       debug:
-      msg: "{{ packages.stdout_lines }}" 
+        msg: "{{ packages.stdout_lines }}" 
