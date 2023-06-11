@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Update apt cache and make sure nano is installed
+      apt:
+        name: nano
+        update_cache: yes
